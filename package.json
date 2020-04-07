@@ -1,0 +1,23 @@
+{
+  "name": "virtual-keyboard",
+  "version": "1.0.0",
+  "description": "Create virtual keyboard",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anton-Balbatun/virtual-keyboard.git"
+  },
+  "author": "Anton Balbatun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anton-Balbatun/virtual-keyboard/issues"
+  },
+  "homepage": "https://github.com/Anton-Balbatun/virtual-keyboard#readme"
+}
