@@ -1,0 +1,57 @@
+.container{
+    margin: 0 auto;
+    max-width:  1020px;
+}
+.keyboard_text_area{
+    height: 200px;
+    width: 1020px;
+}
+.keyboard_container{
+    max-height: 600px;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 5px;
+    padding-left: 0;
+    padding-bottom: 0;
+    background-color: blanchedalmond; 
+    border: 3px solid #222222;
+    border-radius: 5px;
+
+}
+.line{
+    display: flex;
+}
+.button_default{
+    display: flex;
+    margin: 8px;
+    width: 50px;
+    height: 50px;
+    background-color: tan;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.button_special{
+    display: flex;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: tan;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button_special:hover,.button_default:hover{
+    background-color: purple;
+}
+.space_button{
+    width: 500px;
+}
+.medium_button{
+    width: 150px;
+}
+.pressed{
+    background-color: purple;
+    border-radius: 15px;
+}
